@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100;1,200&family=Outfit:wght@100..900&family=Roboto:wght@100&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--Grey-900);
+    Font-size: 14px;
+}
+
+main {
+    background-color: var(--Grey-800);
+    width: 25%;
+    margin: auto;
+    margin-top: 130px;
+    padding: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+header {
+    margin-bottom: 15px;
+    text-align: center;
+    /* جامده */
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+h1,
+p,
+div {
+    text-align: center;
+    line-height: 1.8;
+}
+
+h1,
+div {
+    color: var(--White);
+}
+
+
+section p:first-of-type {
+    color: var(--Green);
+    line-height: 2;
+}
+
+section p:last-of-type {
+    color: rgba(255, 255, 255, 0.486);
+    line-height: 4;
+
+}
+
+.GitHub,
+.Frontend-Mentor,
+.LinkedIn,
+.Twitter,
+.Instagram {
+    width: 380px;
+    height: 50px;
+    background-color: var(--Grey-700);
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 20px;
+    border-radius: 25px;
+
+}
+
+@media (max-width:14400px) {
+
+    main {
+        background-color: var(--Grey-800);
+        width: 400px;
+        height: 670px;
+        margin: auto;
+        margin-top: 130px;
+        padding: 50px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    .GitHub,
+    .Frontend-Mentor,
+    .LinkedIn,
+    .Twitter,
+    .Instagram {
+        width: 300px;
+        height: 50px;
+        background-color: var(--Grey-700);
+        text-align: center;
+        padding-top: 13px;
+        margin-top: 20px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+}
